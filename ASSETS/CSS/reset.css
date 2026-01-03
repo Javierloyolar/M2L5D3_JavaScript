@@ -1,0 +1,32 @@
+/* reset.css */
+
+/* Quita márgenes y paddings por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ajustes base */
+html,
+body {
+    height: 100%;
+}
+
+/* Imágenes responsivas por defecto */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Quitar estilos de listas */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Quitar subrayado y color por defecto en enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
